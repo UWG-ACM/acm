@@ -350,8 +350,8 @@ html {
     display: flex;
 }
 
-img {
-    object-fit: contain;
+img.person {
+    object-fit: cover;
 }
 
 /*\\\\\\\\\ Regular Tablet Width /////////*/
