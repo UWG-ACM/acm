@@ -1,0 +1,394 @@
+/*\\\\\\\\\ Everything /////////*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*\\\\\\\\\ Layout /////////*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#clubLogo img {
+    object-fit: contain;
+}
+
+#navigation {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#navigation a {
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #00bce6;
+    transition-duration: 0s;
+}
+
+#navigation a:active {
+    color: #c7c8ca;
+}
+
+#navigation a:hover {
+    color: black;
+    background-color: #4d5152;
+}
+
+#acmFooter {
+    text-align: center;
+    background-color: #00bce6;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    font-style: italic;
+}
+
+#acmFooter a {
+    color: #ffffff;
+    text-decoration: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+/*\\\\\\\\\ Homepage /////////*/
+#acmAbout {
+    max-width: 750px;
+    text-align: center;
+    margin: auto;
+}
+
+#acmAbout h2 {
+    margin-top: 30px;
+}
+
+#acmMission {
+    max-width: 750px;
+    text-align: center;
+    margin: auto;
+}
+
+#acmMission h2 {
+    margin-top: 30px;
+}
+
+#organizationLogos {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#organizationLogos img {
+    max-width: 15%;
+    
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #clubMainContent {
+} */
+
+#shield {
+    width: 150px;
+    height: 150px;
+}
+
+/*\\\\\\\\\ Events Page /////////*/
+#acmEvents {
+    text-align: center;
+}
+
+#acmEvents h2 {
+    margin-top: 45px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+#fall_Semester {
+    margin-top: 85px;
+    font-size: 28px;
+}
+
+#spring_Semester {
+    margin-top: 95px;
+    font-size: 28px;
+}
+
+#fall_Semester a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#spring_Semester a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#fallEventTimeline {
+    text-align: center;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#eventDetails {
+    padding: 5px 40px;
+    align-items: center;
+    text-align: center;
+    min-height: 20vh;
+}
+
+#acmFallEvents h3 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#acmSpringEvents h3 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#springEventTimeline {
+    text-align: center;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#eventName {
+    border-style: hidden;
+    margin-top: 8.5px;
+}
+
+#acmSpringEvents p {
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* \\\\\\\\\ Event Suggestions Page /////////
+#acmEventSuggestions {
+    border-style: solid;
+    border-color: #6CACE4;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 55px;
+}
+
+#eventFormBorder {
+    display: flex;
+    justify-content: center;
+}
+
+#eventFormAlignment {
+    margin-top: 12px;
+}
+
+#eventSuggestion {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#eventSuggestion {
+    margin-left: 20px;
+    width: 180px;
+    height: 20px;
+}
+
+#suggestionSubmit {
+    margin-left: 10px;
+    height: 30px;
+    width: 130px;
+    border-radius: 5%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #6CACE4;
+    border-style: solid;
+}
+
+#eventName {
+    color: black;
+    margin-left: 10px;
+    width: 180px;
+    height: 20px;
+    font-weight: bold;
+}
+
+#suggestionSubmit:hover {
+    color: black;
+    background-color: darkslategray;
+}
+
+#uwgShield {
+    margin-top: 2px;
+    margin-left: 16px;
+    width: 50px;
+    height: 50px;
+}
+
+#checkSubmitted {
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/*\\\\\\\\\ Governance Page /////////*/
+#uwg_logo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#uwg {
+    width: 260px;
+    height: 70px;
+}
+
+#officers {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#staff {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#acmStaff {
+    justify-content: space-evenly;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#acmFacultyAdvisor b {
+    color: #00bce6;
+}
+
+#acmStaff a {
+    color: black;
+    text-decoration: none;
+}
+
+#staff a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#acmStaff img {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-style: solid;
+    background-position: top center;
+    display: flex;
+}
+
+#acmOfficers {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#acmOfficers {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+#acmOfficers a {
+    color: black;
+    text-decoration: none;
+}
+
+#officers a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#acmOfficers img {
+    margin-top: 15px;
+    margin-left: 15px;
+    border-style: solid;
+    vertical-align: bottom;
+    background-position: top center;
+    background-color: #ffffff;
+    display: flex;
+}
+
+img {
+    object-fit: contain;
+}
+
+/*\\\\\\\\\ Regular Tablet Width /////////*/
+@media screen and (max-width: 767px) {
+    #organizationLogos img {
+        display: none;
+    }
+
+    #acmFooter {
+        height: auto;
+    }
+}
+
+/*\\\\\\\\\ Low-Rez Tablet Width /////////*/
+@media screen and (max-width: 700px) {
+    #organizationLogos img {
+        display: none;
+    }
+
+     #acmFooter {
+        height: auto;
+    }
+}
+
+/*\\\\\\\\\ Phone Width /////////*/
+@media screen and (max-width: 480px) {
+    #organizationLogos img {
+        display: none;
+    }
+
+     #acmFooter {
+        height: auto;
+    }
+
+    #navigation a {
+        width: auto;
+        padding: auto;
+    }
+}
+

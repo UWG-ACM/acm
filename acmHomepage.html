@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>ACM Homepage</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <header>
+        <acm-header></acm-header>
+      </header>
+      <main id="clubMainContent">
+        <div id="acmDescription">
+          <acm-desc></acm-desc>
+        </div>
+        <div id="organizationLogos">
+          <img id="acm" src="images/acmlogo.png" alt="Picture of ACM logo" />
+          <img id="wolfie" src="images/wolfie.png" alt="UWG Wolf Mascot" width="150" height="150"/>
+        </div>
+      </main>
+      <footer>
+        <acm-footer></acm-footer>
+      </footer>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="components/Header.js"></script>
+    <script src="components/Navigation.js"></script>
+    <script src="components/ACMDescription.js"></script>
+    <script src="components/Footer.js"></script>
+
+    <script>
+      const mountedApp = app.mount("#app");
+    </script>
+  </body>
+</html>

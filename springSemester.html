@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>ACM Spring Events</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <header>
+        <acm-header></acm-header>
+      </header>
+      <main id="springEventTimeline">
+        <div id="acmSpringEvents">
+          <h3>Spring Events</h3>
+          <events :event_array="acmSpringEvents"></events>
+          <!-- <p>(Spring Events under review until January 09, 2023)</p> -->
+        </div>
+      </main>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="components/Header.js"></script>
+    <script src="components/Navigation.js"></script>
+    <script src="components/Events.js"></script>
+
+    <script>
+      const mountedApp = app.mount("#app");
+    </script>
+  </body>
+</html>

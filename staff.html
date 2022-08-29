@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>ACM Staff</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <header>
+        <acm-header></acm-header>
+      </header>
+      <main id="staffMainContent">
+        <div id="allStaff">
+          <staff></staff>
+        </div>
+      </main>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="components/Header.js"></script>
+    <script src="components/Navigation.js"></script>
+    <script src="components/Staff.js"></script>
+
+    <script>
+      const mountedApp = app.mount("#app");
+    </script>
+  </body>
+</html>
