@@ -327,7 +327,7 @@ html {
     justify-content: space-evenly;
     text-align: center;
     display: grid;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 #acmOfficers a {
