@@ -3,34 +3,6 @@ const app = Vue.createApp({
     return {
       acmFallEvents: [
         {
-          eventName: "LAN Party",
-          eventTime: "September 28th",
-        },
-        {
-          eventName: "Icebreaker W/ Board Games",
-          eventTime: "October 12th",
-        },
-        {
-          eventName: "Google Event",
-          eventTime: "October 18th",
-        },
-        {
-          eventName: "Ribbon Cutting Ceremony",
-          eventTime: "October 20th",
-        },
-        {
-          eventName: "Halloween Party",
-          eventTime: "October 26th",
-        },
-        {
-          eventName: "Alumni Panel",
-          eventTime: "November 9th",
-        },
-        {
-          eventName: "LAN Party",
-          eventTime: "November 16th",
-        },
-        {
           eventName: "End of Year Party",
           eventTime: "November 30th",
         },
